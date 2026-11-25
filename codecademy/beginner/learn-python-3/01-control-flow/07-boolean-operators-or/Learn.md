@@ -1,0 +1,79 @@
+# Boolean Operators: or
+
+The Boolean operator `or` combines two expressions into a larger expression that is `True` if either component is `True`.
+
+Consider the statement
+
+```txt
+Oranges are fruits or apples are vegetables.
+```
+
+This statement is composed of two expressions:
+`oranges are fruits`,
+which is `True`,
+and `apples are vegetables`,
+which is `False`.
+
+Because the two expressions are connected by the `or` operator,
+the entire statement is `True`.
+
+Only one component needs to be `True` for an `or` statement to be `True`.
+
+---
+
+In English,
+`or` often implies that if one component is `True`,
+then the other component must be `False`.
+
+This is not the case in Python.
+
+If an `or` statement has two `True` components,
+it is also `True`.
+
+---
+
+Let's take a look at a few examples in Python:
+
+```py
+True or (3 + 4 == 7)  # True
+(1 - 1 == 0) or False # True
+(2 < 0) or True       # True
+(3 == 8) or (3 > 4)   # False
+
+```
+
+Notice that each `or` statement that has at least one `True` component is `True`,
+but the final statement has two `False` components,
+so it is `False`.
+
+## ✔️ Instructions
+
+1. Set the variables `statement_one` and `statement_two` equal to the result of the following Boolean expressions:
+
+   Statement one:
+
+   ```py
+   (2 - 1 > 3) or (-5 * 2 == -10)
+
+   ```
+
+   Statement two:
+
+   ```py
+   (9 + 5 <= 15) or (7 != 4 + 3)
+
+   ```
+
+2. The registar's office at Calvin Coolidge's Cool College has another request.
+
+   They want to send a mailer with information about the commencement ceremonies to students who have met at least one graduation requirement (120 or more credits and a 2.0 or greater GPA).
+
+   Write an `if` statement that checks if a student either has 120 or more credits `or` a GPA of 2.0 or higher.
+
+   If so,
+   it should print:
+
+   ```txt
+   "You have met at least one of the requirements."
+
+   ```

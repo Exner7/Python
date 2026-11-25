@@ -1,0 +1,53 @@
+# Review
+
+Great job!
+
+We covered a lot of material in this leson,
+and we've increased the number of tools in our Python toolkit severalfold.
+
+Let's review what we've learned this lesson:
+
+- Boolean expressions are statements that are objectively either true or false
+
+- A Boolean variable is a variable that is set to one of the Boolean values,
+  `True` of `False`.
+
+- We can create Boolean expressions using relational operators:
+
+  - `==`: equals
+  - `!=`: not equals
+  - `>`: greater than
+  - `>=`: greater than or equal to
+  - `<`: less than
+  - `<=`: less than or equal to
+
+- `if` statements can be used to create control flow in your code.
+
+- `else` statements can be used to execute code when the conditions of an `if` statement are not met.
+
+- `elif` statements can be used to build additional checks into your `if` statements.
+
+Let's put these skills to the test!
+
+## ✔️ Instructions
+
+_Optional_:
+_Little Codey is an interplanetary space boxer trying to win chmapionship belts across variou weight categories on other planets in the Solar System_.
+
+In the file `space.py`,
+we write a program that help Codey keep track of the target weight by:
+
+1. Checking which number `planet` is equal to
+
+2. Computing Codey' weight on the destination planet
+
+Here is the table of conversions:
+
+| # | Planet      | Relative Gravity |
+| - | ----------- | ---------------- |
+| 1 | Venus       | 0.91             |
+| 2 | Mars        | 0.38             |
+| 3 | Jupiter     | 2.34             |
+| 4 | Saturn      | 1.06             |
+| 5 | Uranus      | 0.92             |
+| 6 | Neptune     | 1.19             |
